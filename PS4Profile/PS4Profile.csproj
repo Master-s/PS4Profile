@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C33CC89F-7035-42B3-909C-8003C757E50E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PS4Profile</RootNamespace>
+    <AssemblyName>PS4Profile</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PS4Profile.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniConfig.cs" />
+    <Compile Include="Ini\IniFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon01s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon02s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon03s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon04s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon05s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon06s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon07s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons09s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons10s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons08s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons03s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons11s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons12s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon07s1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons13s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons14s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saveicon0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PS4Profile.ico" />
+    <None Include="Resources\user_48_a07.png" />
+    <None Include="Resources\user_48_a06.png" />
+    <None Include="Resources\user_48_a05.png" />
+    <None Include="Resources\user_48_a04.png" />
+    <None Include="Resources\user_48_a03.png" />
+    <None Include="Resources\user_48_a02.png" />
+    <None Include="Resources\user_48_a01.png" />
+    <None Include="Resources\default_user_48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

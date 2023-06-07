@@ -1,0 +1,10 @@
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\bin\Debug\PS4Profile.exe.config
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\bin\Debug\PS4Profile.exe
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\bin\Debug\PS4Profile.pdb
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.csproj.AssemblyReference.cache
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.Form1.resources
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.Properties.Resources.resources
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.csproj.GenerateResource.cache
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.csproj.CoreCompileInputs.cache
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.exe
+C:\Users\Master\source\repos\PS4Profile\PS4Profile\obj\Debug\PS4Profile.pdb
