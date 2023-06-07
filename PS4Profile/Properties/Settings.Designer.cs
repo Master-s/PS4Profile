@@ -11,18 +11,54 @@
 
 namespace PS4Profile.Properties
 {
-    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
+    [global::System.Runtime.CompilerServices.CompilerGenerated()]
+    [global::System.CodeDom.Compiler.GeneratedCode("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
+    [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+    internal sealed partial class MySettings : global::System.Configuration.ApplicationSettingsBase
     {
+        private static MySettings defaultInstance = (MySettings)global::System.Configuration.ApplicationSettingsBase.Synchronized(new MySettings());
 
-        private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
+        /* TODO ERROR: Skipped IfDirectiveTrivia *//* TODO ERROR: Skipped DisabledTextTrivia *//* TODO ERROR: Skipped EndIfDirectiveTrivia */
+        public static MySettings Default
         {
             get
             {
+
+                /* TODO ERROR: Skipped IfDirectiveTrivia *//* TODO ERROR: Skipped DisabledTextTrivia *//* TODO ERROR: Skipped EndIfDirectiveTrivia */
                 return defaultInstance;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSetting()]
+        [global::System.Diagnostics.DebuggerNonUserCode()]
+        [global::System.Configuration.DefaultSettingValue("")]
+        public string IP
+        {
+            get
+            {
+                return System.Convert.ToString(this["IP"]);
+            }
+            set
+            {
+                object Value = null;
+                this["IP"] = Value;
+            }
+        }
+    }
+}
+namespace PS4Profile.Properties
+{
+    [global::Microsoft.VisualBasic.HideModuleName()]
+    [global::System.Diagnostics.DebuggerNonUserCode()]
+    [global::System.Runtime.CompilerServices.CompilerGenerated()]
+    internal static class MySettingsProperty
+    {
+        [global::System.ComponentModel.Design.HelpKeyword("My.Settings")]
+        internal static global::PS4Profile.Properties.MySettings Settings
+        {
+            get
+            {
+                return global::PS4Profile.Properties.MySettings.Default;
             }
         }
     }

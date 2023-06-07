@@ -121,6 +121,12 @@
   <data name="icons11s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons11s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user_48_a06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_48_a06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons09s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons09s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons03s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons03s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,6 +145,12 @@
   <data name="default_user_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\default_user_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user_48_a05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_48_a05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_48_a01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_48_a01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon05s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon05s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,9 +159,6 @@
   </data>
   <data name="icon07s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon07s1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons09s" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons09s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon01s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon01s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,28 +175,25 @@
   <data name="icons08s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons08s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon04s" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon04s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_48_a01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_48_a01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="user_48_a02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_48_a02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_48_a03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_48_a03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_48_a04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_48_a04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_48_a05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_48_a05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_48_a06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_48_a06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="user_48_a07" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_48_a07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_48_a03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_48_a03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon04s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon04s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_48_a08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_48_a08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_48_a09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_48_a09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

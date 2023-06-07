@@ -15,6 +15,7 @@ namespace PS4Profile
 			IniConfig.Newini = new IniFile("ip");
 			IniConfig.IP = IniConfig.Newini.Read("PS4 IP", "IP");
 			IniConfig.port = IniConfig.Newini.Read("PS4 port", "port");
+
 		}
 	}
 }

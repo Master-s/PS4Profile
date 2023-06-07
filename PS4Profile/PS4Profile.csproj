@@ -56,6 +56,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FTP.cs" />
     <Compile Include="IniConfig.cs" />
     <Compile Include="Ini\IniFile.cs" />
     <Compile Include="Program.cs" />
@@ -140,6 +141,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PS4Profile.ico" />
+    <None Include="Resources\user_48_a09.png" />
+    <None Include="Resources\user_48_a08.png" />
     <None Include="Resources\user_48_a07.png" />
     <None Include="Resources\user_48_a06.png" />
     <None Include="Resources\user_48_a05.png" />

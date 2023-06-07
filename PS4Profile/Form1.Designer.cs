@@ -29,6 +29,7 @@ namespace PS4Profile
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -79,14 +80,41 @@ namespace PS4Profile
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.comboBoxAvatar = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
+            this.sendAvarat_icon = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxID = new System.Windows.Forms.ComboBox();
+            this.ID0X0 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.idBox = new System.Windows.Forms.TextBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.payloadStatus = new System.Windows.Forms.Label();
+            this.id2Box = new System.Windows.Forms.TextBox();
+            this.id3Box = new System.Windows.Forms.TextBox();
+            this.id4Box = new System.Windows.Forms.TextBox();
+            this.id5Box = new System.Windows.Forms.TextBox();
+            this.id6Box = new System.Windows.Forms.TextBox();
+            this.id7Box = new System.Windows.Forms.TextBox();
+            this.idSaves = new System.Windows.Forms.Button();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
@@ -110,10 +138,12 @@ namespace PS4Profile
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -137,7 +167,6 @@ namespace PS4Profile
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -173,7 +202,7 @@ namespace PS4Profile
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(73, 17);
+            this.textBox1.Location = new System.Drawing.Point(75, 17);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(198, 25);
@@ -183,7 +212,7 @@ namespace PS4Profile
             // 
             this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(73, 46);
+            this.textBox2.Location = new System.Drawing.Point(75, 46);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(198, 25);
@@ -193,7 +222,7 @@ namespace PS4Profile
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(73, 75);
+            this.textBox3.Location = new System.Drawing.Point(75, 75);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(198, 25);
@@ -202,7 +231,7 @@ namespace PS4Profile
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(11, 1);
+            this.button2.Location = new System.Drawing.Point(8, 2);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(89, 30);
@@ -274,7 +303,7 @@ namespace PS4Profile
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(73, 106);
+            this.textBox4.Location = new System.Drawing.Point(75, 106);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(198, 25);
@@ -284,7 +313,7 @@ namespace PS4Profile
             // 
             this.textBox18.BackColor = System.Drawing.Color.White;
             this.textBox18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(82, 109);
+            this.textBox18.Location = new System.Drawing.Point(224, 46);
             this.textBox18.Name = "textBox18";
             this.textBox18.ReadOnly = true;
             this.textBox18.Size = new System.Drawing.Size(28, 29);
@@ -296,7 +325,7 @@ namespace PS4Profile
             // 
             this.textBox17.BackColor = System.Drawing.Color.White;
             this.textBox17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(3, 109);
+            this.textBox17.Location = new System.Drawing.Point(284, 46);
             this.textBox17.Name = "textBox17";
             this.textBox17.ReadOnly = true;
             this.textBox17.Size = new System.Drawing.Size(28, 29);
@@ -308,7 +337,7 @@ namespace PS4Profile
             // 
             this.textBox16.BackColor = System.Drawing.Color.White;
             this.textBox16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(224, 46);
+            this.textBox16.Location = new System.Drawing.Point(314, 46);
             this.textBox16.Name = "textBox16";
             this.textBox16.ReadOnly = true;
             this.textBox16.Size = new System.Drawing.Size(28, 29);
@@ -320,7 +349,7 @@ namespace PS4Profile
             // 
             this.textBox15.BackColor = System.Drawing.Color.White;
             this.textBox15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(39, 109);
+            this.textBox15.Location = new System.Drawing.Point(106, 110);
             this.textBox15.Name = "textBox15";
             this.textBox15.ReadOnly = true;
             this.textBox15.Size = new System.Drawing.Size(28, 29);
@@ -332,7 +361,7 @@ namespace PS4Profile
             // 
             this.textBox14.BackColor = System.Drawing.Color.White;
             this.textBox14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(190, 46);
+            this.textBox14.Location = new System.Drawing.Point(193, 46);
             this.textBox14.Name = "textBox14";
             this.textBox14.ReadOnly = true;
             this.textBox14.Size = new System.Drawing.Size(28, 29);
@@ -344,7 +373,7 @@ namespace PS4Profile
             // 
             this.textBox13.BackColor = System.Drawing.Color.White;
             this.textBox13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(158, 46);
+            this.textBox13.Location = new System.Drawing.Point(162, 46);
             this.textBox13.Name = "textBox13";
             this.textBox13.ReadOnly = true;
             this.textBox13.Size = new System.Drawing.Size(28, 29);
@@ -356,7 +385,7 @@ namespace PS4Profile
             // 
             this.textBox12.BackColor = System.Drawing.Color.White;
             this.textBox12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(126, 46);
+            this.textBox12.Location = new System.Drawing.Point(131, 46);
             this.textBox12.Name = "textBox12";
             this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(28, 29);
@@ -368,7 +397,7 @@ namespace PS4Profile
             // 
             this.textBox11.BackColor = System.Drawing.Color.White;
             this.textBox11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(94, 46);
+            this.textBox11.Location = new System.Drawing.Point(100, 46);
             this.textBox11.Name = "textBox11";
             this.textBox11.ReadOnly = true;
             this.textBox11.Size = new System.Drawing.Size(28, 29);
@@ -380,7 +409,7 @@ namespace PS4Profile
             // 
             this.textBox10.BackColor = System.Drawing.Color.White;
             this.textBox10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(63, 46);
+            this.textBox10.Location = new System.Drawing.Point(69, 46);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
             this.textBox10.Size = new System.Drawing.Size(28, 29);
@@ -392,7 +421,7 @@ namespace PS4Profile
             // 
             this.textBox9.BackColor = System.Drawing.Color.White;
             this.textBox9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(33, 46);
+            this.textBox9.Location = new System.Drawing.Point(38, 46);
             this.textBox9.Name = "textBox9";
             this.textBox9.ReadOnly = true;
             this.textBox9.Size = new System.Drawing.Size(28, 29);
@@ -404,7 +433,7 @@ namespace PS4Profile
             // 
             this.Ta.BackColor = System.Drawing.Color.White;
             this.Ta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ta.Location = new System.Drawing.Point(3, 46);
+            this.Ta.Location = new System.Drawing.Point(7, 46);
             this.Ta.Name = "Ta";
             this.Ta.ReadOnly = true;
             this.Ta.Size = new System.Drawing.Size(28, 29);
@@ -558,7 +587,7 @@ namespace PS4Profile
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Location = new System.Drawing.Point(106, 1);
+            this.button1.Location = new System.Drawing.Point(98, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 30);
             this.button1.TabIndex = 14;
@@ -598,7 +627,7 @@ namespace PS4Profile
             this.portbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.portbox.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.portbox.ForeColor = System.Drawing.Color.Black;
-            this.portbox.Location = new System.Drawing.Point(58, 26);
+            this.portbox.Location = new System.Drawing.Point(66, 26);
             this.portbox.Name = "portbox";
             this.portbox.Size = new System.Drawing.Size(91, 25);
             this.portbox.TabIndex = 91;
@@ -611,7 +640,7 @@ namespace PS4Profile
             this.ipbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ipbox.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.ipbox.ForeColor = System.Drawing.Color.Black;
-            this.ipbox.Location = new System.Drawing.Point(58, 1);
+            this.ipbox.Location = new System.Drawing.Point(66, 1);
             this.ipbox.Multiline = true;
             this.ipbox.Name = "ipbox";
             this.ipbox.Size = new System.Drawing.Size(91, 24);
@@ -623,7 +652,7 @@ namespace PS4Profile
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.Location = new System.Drawing.Point(201, 2);
+            this.button3.Location = new System.Drawing.Point(187, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(89, 30);
             this.button3.TabIndex = 93;
@@ -635,7 +664,7 @@ namespace PS4Profile
             // 
             this.textBox19.BackColor = System.Drawing.Color.White;
             this.textBox19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(114, 109);
+            this.textBox19.Location = new System.Drawing.Point(255, 46);
             this.textBox19.Name = "textBox19";
             this.textBox19.ReadOnly = true;
             this.textBox19.Size = new System.Drawing.Size(28, 29);
@@ -647,7 +676,7 @@ namespace PS4Profile
             // 
             this.textBox20.BackColor = System.Drawing.Color.White;
             this.textBox20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(152, 109);
+            this.textBox20.Location = new System.Drawing.Point(56, 111);
             this.textBox20.Name = "textBox20";
             this.textBox20.ReadOnly = true;
             this.textBox20.Size = new System.Drawing.Size(28, 29);
@@ -688,7 +717,7 @@ namespace PS4Profile
             this.groupBox2.Controls.Add(this.pictureBox8);
             this.groupBox2.Location = new System.Drawing.Point(281, 88);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(261, 140);
+            this.groupBox2.Size = new System.Drawing.Size(344, 140);
             this.groupBox2.TabIndex = 94;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "PS4 Symbols";
@@ -697,7 +726,7 @@ namespace PS4Profile
             // 
             this.textBox21.BackColor = System.Drawing.Color.White;
             this.textBox21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(207, 109);
+            this.textBox21.Location = new System.Drawing.Point(12, 111);
             this.textBox21.Name = "textBox21";
             this.textBox21.ReadOnly = true;
             this.textBox21.Size = new System.Drawing.Size(28, 29);
@@ -708,7 +737,13 @@ namespace PS4Profile
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox3.Controls.Add(this.label35);
+            this.groupBox3.Controls.Add(this.pictureBox25);
+            this.groupBox3.Controls.Add(this.label34);
+            this.groupBox3.Controls.Add(this.pictureBox24);
+            this.groupBox3.Controls.Add(this.comboBoxAvatar);
             this.groupBox3.Controls.Add(this.label26);
+            this.groupBox3.Controls.Add(this.sendAvarat_icon);
             this.groupBox3.Controls.Add(this.label25);
             this.groupBox3.Controls.Add(this.label24);
             this.groupBox3.Controls.Add(this.label23);
@@ -724,91 +759,373 @@ namespace PS4Profile
             this.groupBox3.Controls.Add(this.pictureBox19);
             this.groupBox3.Controls.Add(this.pictureBox18);
             this.groupBox3.Controls.Add(this.pictureBox17);
-            this.groupBox3.Location = new System.Drawing.Point(5, 232);
+            this.groupBox3.Location = new System.Drawing.Point(5, 230);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(537, 89);
+            this.groupBox3.Size = new System.Drawing.Size(620, 91);
             this.groupBox3.TabIndex = 97;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Avatar";
             // 
-            // label19
+            // comboBoxAvatar
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(40, 71);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(52, 17);
-            this.label19.TabIndex = 97;
-            this.label19.Text = "Normal";
+            this.comboBoxAvatar.FormattingEnabled = true;
+            this.comboBoxAvatar.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"});
+            this.comboBoxAvatar.Location = new System.Drawing.Point(565, 18);
+            this.comboBoxAvatar.Name = "comboBoxAvatar";
+            this.comboBoxAvatar.Size = new System.Drawing.Size(43, 25);
+            this.comboBoxAvatar.TabIndex = 102;
+            this.toolTip1.SetToolTip(this.comboBoxAvatar, "Avatar number");
             // 
-            // label20
+            // label26
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(93, 71);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(56, 17);
-            this.label20.TabIndex = 97;
-            this.label20.Text = "Avatar 1";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(400, 71);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(56, 17);
+            this.label26.TabIndex = 97;
+            this.label26.Text = "Avatar 7";
             // 
-            // label21
+            // sendAvarat_icon
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(150, 71);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(56, 17);
-            this.label21.TabIndex = 97;
-            this.label21.Text = "Avatar 2";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(207, 71);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(56, 17);
-            this.label22.TabIndex = 97;
-            this.label22.Text = "Avatar 3";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(264, 71);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(56, 17);
-            this.label23.TabIndex = 97;
-            this.label23.Text = "Avatar 4";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(321, 71);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(56, 17);
-            this.label24.TabIndex = 97;
-            this.label24.Text = "Avatar 5";
+            this.sendAvarat_icon.BackColor = System.Drawing.SystemColors.Control;
+            this.sendAvarat_icon.FlatAppearance.BorderSize = 0;
+            this.sendAvarat_icon.Location = new System.Drawing.Point(562, 43);
+            this.sendAvarat_icon.Name = "sendAvarat_icon";
+            this.sendAvarat_icon.Size = new System.Drawing.Size(46, 25);
+            this.sendAvarat_icon.TabIndex = 101;
+            this.sendAvarat_icon.Text = "Send json to PS4";
+            this.sendAvarat_icon.UseVisualStyleBackColor = false;
+            this.sendAvarat_icon.Click += new System.EventHandler(this.sendAvarat_icon_Click);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(378, 71);
+            this.label25.Location = new System.Drawing.Point(344, 71);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(56, 17);
             this.label25.TabIndex = 97;
             this.label25.Text = "Avatar 6";
             // 
-            // label26
+            // label24
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(436, 71);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(56, 17);
-            this.label26.TabIndex = 97;
-            this.label26.Text = "Avatar 7";
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(288, 71);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(56, 17);
+            this.label24.TabIndex = 97;
+            this.label24.Text = "Avatar 5";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(232, 71);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(56, 17);
+            this.label23.TabIndex = 97;
+            this.label23.Text = "Avatar 4";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(176, 71);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(56, 17);
+            this.label22.TabIndex = 97;
+            this.label22.Text = "Avatar 3";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(120, 71);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(56, 17);
+            this.label21.TabIndex = 97;
+            this.label21.Text = "Avatar 2";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(64, 71);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(56, 17);
+            this.label20.TabIndex = 97;
+            this.label20.Text = "Avatar 1";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(1, 71);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(63, 17);
+            this.label19.TabIndex = 97;
+            this.label19.Text = "Normal 0";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.comboBoxID);
+            this.panel1.Controls.Add(this.ID0X0);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Location = new System.Drawing.Point(-5, 51);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(648, 35);
+            this.panel1.TabIndex = 98;
+            // 
+            // comboBoxID
+            // 
+            this.comboBoxID.FormattingEnabled = true;
+            this.comboBoxID.Location = new System.Drawing.Point(307, 3);
+            this.comboBoxID.Name = "comboBoxID";
+            this.comboBoxID.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxID.TabIndex = 100;
+            // 
+            // ID0X0
+            // 
+            this.ID0X0.AutoSize = true;
+            this.ID0X0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ID0X0.Location = new System.Drawing.Point(281, 6);
+            this.ID0X0.Name = "ID0X0";
+            this.ID0X0.Size = new System.Drawing.Size(27, 21);
+            this.ID0X0.TabIndex = 96;
+            this.ID0X0.Text = "ID";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Control;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.Location = new System.Drawing.Point(431, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(121, 25);
+            this.button4.TabIndex = 95;
+            this.button4.Text = "Send json to PS4";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // idBox
+            // 
+            this.idBox.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idBox.Location = new System.Drawing.Point(6, 323);
+            this.idBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.idBox.Name = "idBox";
+            this.idBox.Size = new System.Drawing.Size(76, 25);
+            this.idBox.TabIndex = 94;
+            this.idBox.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // payloadStatus
+            // 
+            this.payloadStatus.AutoSize = true;
+            this.payloadStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.payloadStatus.Location = new System.Drawing.Point(2, 368);
+            this.payloadStatus.Name = "payloadStatus";
+            this.payloadStatus.Size = new System.Drawing.Size(46, 17);
+            this.payloadStatus.TabIndex = 99;
+            this.payloadStatus.Text = "Status";
+            // 
+            // id2Box
+            // 
+            this.id2Box.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id2Box.Location = new System.Drawing.Point(84, 323);
+            this.id2Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.id2Box.Name = "id2Box";
+            this.id2Box.Size = new System.Drawing.Size(76, 25);
+            this.id2Box.TabIndex = 94;
+            this.id2Box.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // id3Box
+            // 
+            this.id3Box.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id3Box.Location = new System.Drawing.Point(161, 323);
+            this.id3Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.id3Box.Name = "id3Box";
+            this.id3Box.Size = new System.Drawing.Size(76, 25);
+            this.id3Box.TabIndex = 94;
+            this.id3Box.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // id4Box
+            // 
+            this.id4Box.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id4Box.Location = new System.Drawing.Point(239, 323);
+            this.id4Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.id4Box.Name = "id4Box";
+            this.id4Box.Size = new System.Drawing.Size(76, 25);
+            this.id4Box.TabIndex = 94;
+            this.id4Box.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // id5Box
+            // 
+            this.id5Box.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id5Box.Location = new System.Drawing.Point(316, 323);
+            this.id5Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.id5Box.Name = "id5Box";
+            this.id5Box.Size = new System.Drawing.Size(76, 25);
+            this.id5Box.TabIndex = 94;
+            this.id5Box.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // id6Box
+            // 
+            this.id6Box.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id6Box.Location = new System.Drawing.Point(394, 323);
+            this.id6Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.id6Box.Name = "id6Box";
+            this.id6Box.Size = new System.Drawing.Size(76, 25);
+            this.id6Box.TabIndex = 94;
+            this.id6Box.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // id7Box
+            // 
+            this.id7Box.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id7Box.Location = new System.Drawing.Point(471, 323);
+            this.id7Box.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.id7Box.Name = "id7Box";
+            this.id7Box.Size = new System.Drawing.Size(76, 25);
+            this.id7Box.TabIndex = 94;
+            this.id7Box.Click += new System.EventHandler(this.idBox_Click);
+            // 
+            // idSaves
+            // 
+            this.idSaves.BackColor = System.Drawing.SystemColors.Control;
+            this.idSaves.Location = new System.Drawing.Point(548, 323);
+            this.idSaves.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.idSaves.Name = "idSaves";
+            this.idSaves.Size = new System.Drawing.Size(77, 25);
+            this.idSaves.TabIndex = 100;
+            this.idSaves.Tag = "";
+            this.idSaves.Text = "Save All ID ";
+            this.idSaves.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.idSaves.UseVisualStyleBackColor = false;
+            this.idSaves.Click += new System.EventHandler(this.idSaves_Click);
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(11, 351);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(33, 17);
+            this.label27.TabIndex = 101;
+            this.label27.Text = "ID 1";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(87, 351);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(33, 17);
+            this.label28.TabIndex = 101;
+            this.label28.Text = "ID 2";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(164, 351);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(33, 17);
+            this.label29.TabIndex = 101;
+            this.label29.Text = "ID 3";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(243, 351);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(33, 17);
+            this.label30.TabIndex = 101;
+            this.label30.Text = "ID 4";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(319, 351);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(33, 17);
+            this.label31.TabIndex = 101;
+            this.label31.Text = "ID 5";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(397, 351);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(33, 17);
+            this.label32.TabIndex = 101;
+            this.label32.Text = "ID 6";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(475, 351);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(33, 17);
+            this.label33.TabIndex = 101;
+            this.label33.Text = "ID 7";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(457, 71);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(56, 17);
+            this.label34.TabIndex = 104;
+            this.label34.Text = "Avatar 8";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(513, 71);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(56, 17);
+            this.label35.TabIndex = 106;
+            this.label35.Text = "Avatar 9";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox25.Image = global::PS4Profile.Properties.Resources.user_48_a09;
+            this.pictureBox25.Location = new System.Drawing.Point(509, 18);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox25.TabIndex = 105;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox24.Image = global::PS4Profile.Properties.Resources.user_48_a08;
+            this.pictureBox24.Location = new System.Drawing.Point(453, 18);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox24.TabIndex = 103;
+            this.pictureBox24.TabStop = false;
             // 
             // pictureBox16
             // 
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox16.Image = global::PS4Profile.Properties.Resources.default_user_48;
-            this.pictureBox16.Location = new System.Drawing.Point(40, 19);
+            this.pictureBox16.Location = new System.Drawing.Point(4, 18);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(50, 50);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -821,7 +1138,7 @@ namespace PS4Profile
             this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox23.Image = global::PS4Profile.Properties.Resources.user_48_a07;
-            this.pictureBox23.Location = new System.Drawing.Point(439, 19);
+            this.pictureBox23.Location = new System.Drawing.Point(396, 18);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(50, 50);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -834,7 +1151,7 @@ namespace PS4Profile
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox22.Image = global::PS4Profile.Properties.Resources.user_48_a06;
-            this.pictureBox22.Location = new System.Drawing.Point(382, 19);
+            this.pictureBox22.Location = new System.Drawing.Point(340, 18);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(50, 50);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -847,7 +1164,7 @@ namespace PS4Profile
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Image = global::PS4Profile.Properties.Resources.user_48_a05;
-            this.pictureBox21.Location = new System.Drawing.Point(325, 19);
+            this.pictureBox21.Location = new System.Drawing.Point(284, 18);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(50, 50);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -860,7 +1177,7 @@ namespace PS4Profile
             this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox20.Image = global::PS4Profile.Properties.Resources.user_48_a04;
-            this.pictureBox20.Location = new System.Drawing.Point(268, 19);
+            this.pictureBox20.Location = new System.Drawing.Point(228, 18);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(50, 50);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -873,7 +1190,7 @@ namespace PS4Profile
             this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox19.Image = global::PS4Profile.Properties.Resources.user_48_a03;
-            this.pictureBox19.Location = new System.Drawing.Point(211, 19);
+            this.pictureBox19.Location = new System.Drawing.Point(172, 18);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(50, 50);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -886,7 +1203,7 @@ namespace PS4Profile
             this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Image = global::PS4Profile.Properties.Resources.user_48_a02;
-            this.pictureBox18.Location = new System.Drawing.Point(154, 19);
+            this.pictureBox18.Location = new System.Drawing.Point(116, 18);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(50, 50);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -899,7 +1216,7 @@ namespace PS4Profile
             this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox17.Image = global::PS4Profile.Properties.Resources.user_48_a01;
-            this.pictureBox17.Location = new System.Drawing.Point(97, 19);
+            this.pictureBox17.Location = new System.Drawing.Point(60, 18);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(50, 50);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -911,7 +1228,7 @@ namespace PS4Profile
             // 
             this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox15.Image = global::PS4Profile.Properties.Resources.Saveicon0;
-            this.pictureBox15.Location = new System.Drawing.Point(155, 6);
+            this.pictureBox15.Location = new System.Drawing.Point(167, 1);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(20, 20);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -923,7 +1240,7 @@ namespace PS4Profile
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox14.Image = global::PS4Profile.Properties.Resources.icons14s;
-            this.pictureBox14.Location = new System.Drawing.Point(207, 76);
+            this.pictureBox14.Location = new System.Drawing.Point(7, 78);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(33, 33);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -933,7 +1250,7 @@ namespace PS4Profile
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PS4Profile.Properties.Resources.icon01s;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 17);
+            this.pictureBox1.Location = new System.Drawing.Point(7, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(28, 27);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -944,7 +1261,7 @@ namespace PS4Profile
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox13.Image = global::PS4Profile.Properties.Resources.icons13s;
-            this.pictureBox13.Location = new System.Drawing.Point(147, 76);
+            this.pictureBox13.Location = new System.Drawing.Point(41, 77);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(54, 33);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -954,7 +1271,7 @@ namespace PS4Profile
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PS4Profile.Properties.Resources.icon02s;
-            this.pictureBox2.Location = new System.Drawing.Point(33, 17);
+            this.pictureBox2.Location = new System.Drawing.Point(38, 17);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(28, 27);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -965,7 +1282,7 @@ namespace PS4Profile
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox12.Image = global::PS4Profile.Properties.Resources.icons12s;
-            this.pictureBox12.Location = new System.Drawing.Point(114, 76);
+            this.pictureBox12.Location = new System.Drawing.Point(255, 17);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(28, 29);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -975,7 +1292,7 @@ namespace PS4Profile
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PS4Profile.Properties.Resources.icons03s;
-            this.pictureBox3.Location = new System.Drawing.Point(63, 17);
+            this.pictureBox3.Location = new System.Drawing.Point(69, 17);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(28, 27);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -985,7 +1302,7 @@ namespace PS4Profile
             // pictureBox4
             // 
             this.pictureBox4.Image = global::PS4Profile.Properties.Resources.icon04s;
-            this.pictureBox4.Location = new System.Drawing.Point(94, 17);
+            this.pictureBox4.Location = new System.Drawing.Point(100, 17);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(28, 27);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -996,7 +1313,7 @@ namespace PS4Profile
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = global::PS4Profile.Properties.Resources.icons11s;
-            this.pictureBox11.Location = new System.Drawing.Point(80, 76);
+            this.pictureBox11.Location = new System.Drawing.Point(224, 13);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(28, 33);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1007,7 +1324,7 @@ namespace PS4Profile
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox5.Image = global::PS4Profile.Properties.Resources.icon05s;
-            this.pictureBox5.Location = new System.Drawing.Point(126, 17);
+            this.pictureBox5.Location = new System.Drawing.Point(131, 17);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(28, 27);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1018,7 +1335,7 @@ namespace PS4Profile
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox6.Image = global::PS4Profile.Properties.Resources.icon06s;
-            this.pictureBox6.Location = new System.Drawing.Point(158, 17);
+            this.pictureBox6.Location = new System.Drawing.Point(162, 17);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(28, 27);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1029,7 +1346,7 @@ namespace PS4Profile
             // 
             this.pictureBox10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox10.Image = global::PS4Profile.Properties.Resources.icons10s;
-            this.pictureBox10.Location = new System.Drawing.Point(3, 76);
+            this.pictureBox10.Location = new System.Drawing.Point(284, 13);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(28, 33);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1040,7 +1357,7 @@ namespace PS4Profile
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(190, 17);
+            this.pictureBox7.Location = new System.Drawing.Point(193, 17);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(28, 27);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1051,7 +1368,7 @@ namespace PS4Profile
             // 
             this.pictureBox9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox9.Image = global::PS4Profile.Properties.Resources.icons09s;
-            this.pictureBox9.Location = new System.Drawing.Point(224, 11);
+            this.pictureBox9.Location = new System.Drawing.Point(314, 13);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(28, 33);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1062,30 +1379,35 @@ namespace PS4Profile
             // 
             this.pictureBox8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox8.Image = global::PS4Profile.Properties.Resources.icons08s;
-            this.pictureBox8.Location = new System.Drawing.Point(33, 90);
+            this.pictureBox8.Location = new System.Drawing.Point(100, 91);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(44, 19);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox8.TabIndex = 25;
             this.pictureBox8.TabStop = false;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(-5, 51);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(566, 35);
-            this.panel1.TabIndex = 98;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(548, 324);
+            this.ClientSize = new System.Drawing.Size(630, 385);
+            this.Controls.Add(this.label33);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.idSaves);
+            this.Controls.Add(this.payloadStatus);
+            this.Controls.Add(this.id7Box);
+            this.Controls.Add(this.id6Box);
+            this.Controls.Add(this.id5Box);
+            this.Controls.Add(this.id4Box);
+            this.Controls.Add(this.id3Box);
+            this.Controls.Add(this.id2Box);
+            this.Controls.Add(this.idBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.pictureBox15);
@@ -1119,7 +1441,7 @@ namespace PS4Profile
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PS4Profile v0.03";
+            this.Text = "PS4Profile v0.04";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -1127,6 +1449,10 @@ namespace PS4Profile
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
@@ -1150,7 +1476,6 @@ namespace PS4Profile
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1239,6 +1564,32 @@ namespace PS4Profile
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox idBox;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label payloadStatus;
+        private System.Windows.Forms.Label ID0X0;
+        private System.Windows.Forms.TextBox id2Box;
+        private System.Windows.Forms.TextBox id3Box;
+        private System.Windows.Forms.TextBox id4Box;
+        private System.Windows.Forms.TextBox id5Box;
+        private System.Windows.Forms.TextBox id6Box;
+        private System.Windows.Forms.TextBox id7Box;
+        private System.Windows.Forms.Button idSaves;
+        private System.Windows.Forms.Button sendAvarat_icon;
+        private System.Windows.Forms.ComboBox comboBoxID;
+        private System.Windows.Forms.ComboBox comboBoxAvatar;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.PictureBox pictureBox24;
     }
 }
 
